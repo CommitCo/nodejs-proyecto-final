@@ -1,14 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <%- include ('partials/head')%>
-    <title><%= title%></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%- include ('partials/head')%>
+  <title><%= title%></title>
 </head>
 <body>
-    <%- include ('partials/navigation')%>
-    <h1>Portafolio</h1>
-    <%- include ('partials/footer')%>
+  <%- include ('partials/navigation')%>
+  <main class="my-5">
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Portafolio de proyectos</h1>
+          <p class="lead text-body-secondary">Nuestro portafolio de proyectos muestra nuestra experiencia y 
+            el impacto que hemos tenido en diversas industrias. Hemos trabajado con empresas de 
+            diferentes tamaños y sectores, brindándoles soluciones tecnológicas a medida que han 
+            mejorado su eficiencia operativa y su presencia en línea.</p>
+          <p>
+            <a href="/contacto" class="btn btn-primary my-2">Contáctar</a>
+            <a href="/quien-somos" class="btn btn-secondary my-2">Mas información</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/proyectoA.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Desarrollo de una plataforma de comercio electrónico escalable para una empresa minorista líder.</p><br>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/proyectoB.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Diseño y desarrollo de una aplicación móvil de reserva de citas para una clínica médica.</p><br>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/proyectoC.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Implementación de un sistema de gestión de inventario personalizado para una cadena de distribución</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/proyectoD.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Diseño y desarrollo de un sitio web interactivo para una agencia de marketing digital.</p><br>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/proyectoE.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Trabajamos en colaboración con una institución educativa líder para desarrollar una plataforma de aprendizaje en línea personalizada.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/proyectoF.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Colaboramos con una empresa de consultoría líder en la creación de una aplicación de gestión de proyectos personalizada.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+  <%- include ('partials/footer')%>
 </body>
 </html>
